@@ -1,0 +1,92 @@
+## .NET / Visual Studio
+bin/
+obj/
+out/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+*.swp
+*.lock.json
+project.lock.json
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio cache/options directory
+.vs/
+.vscode/
+.idea/
+*.iml
+*.DotSettings.user
+
+## Rider
+**/.idea/
+
+## Publish output
+publish/
+PublishProfiles/
+
+## NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+## Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+## ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+.nuget/
+
+## DotCover
+*.dotCover
+
+## EF Core / SQL Server LocalDB artifacts
+*.mdf
+*.ldf
+*.ndf
+
+## OS artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Logs
+*.log
+logs/
+
+## Local user/secret files
+appsettings.*.Local.json
+secrets.json
+.env
+.env.*
+
+## Coverage
+coverage/
+TestResults/
+*.coverage
+*.coveragexml

@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CEMETRIX Web (http)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/CEMETRIX.Web/bin/Debug/net8.0/CEMETRIX.Web.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/CEMETRIX.Web",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5099"
+      },
+      "launchBrowser": {
+        "enabled": true,
+        "uri": "http://localhost:5099/login"
+      }
+    },
+    {
+      "name": "Launch Chrome (CEMETRIX)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5099/login",
+      "webRoot": "${workspaceFolder}/src/CEMETRIX.Web"
+    }
+  ]
+}
